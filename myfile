@@ -22,3 +22,17 @@ public class Fibonacci {
 ```
 
 This code calculates and prints the first 10 numbers in the Fibonacci sequence. You can change the value of `n` to generate a longer or shorter sequence.
+import java.util.Random;
+
+public class RandomNumberGenerator {
+    public static void main(String[] args) {
+        // Create a Random object
+        Random rand = new Random();
+
+        // Generate a random number between 1 and 10
+        int randomNumber = rand.nextInt(10) + 1;
+
+        // Print the random number
+        System.out.println("Random Number: " + randomNumber);
+    }
+}
